@@ -1,0 +1,83 @@
+[2017-01-26 07:44:55] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Narongritsr\Calculator\CalculatorServiceProvider' not found' in /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:146
+Stack trace:
+#0 {main}  
+[2017-01-26 07:45:32] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Narongritsr\Calculator\CalculatorServiceProvider' not found' in /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:146
+Stack trace:
+#0 {main}  
+[2017-01-26 07:48:05] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'parse error' in /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorServiceProvider.php:18
+Stack trace:
+#0 {main}  
+[2017-01-26 07:49:39] local.ERROR: exception 'ErrorException' with message 'include(/Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/routes.php): failed to open stream: No such file or directory' in /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorServiceProvider.php:17
+Stack trace:
+#0 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorServiceProvider.php(17): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/narongri...', 17, Array)
+#1 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorServiceProvider.php(17): Narongritsr\Calculator\CalculatorServiceProvider::boot()
+#2 [internal function]: Narongritsr\Calculator\CalculatorServiceProvider->boot()
+#3 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#4 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(769): Illuminate\Container\Container->call(Array)
+#5 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(752): Illuminate\Foundation\Application->bootProvider(Object(Narongritsr\Calculator\CalculatorServiceProvider))
+#6 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}(Object(Narongritsr\Calculator\CalculatorServiceProvider), 16)
+#7 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(753): array_walk(Array, Object(Closure))
+#8 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#9 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#10 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(254): Illuminate\Foundation\Application->bootstrapWith(Array)
+#11 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\Foundation\Http\Kernel->bootstrap()
+#12 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#13 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#14 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/server.php(21): require_once('/Users/narongri...')
+#15 {main}  
+[2017-01-26 08:59:08] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Narongritsr\Calculator\Controller' not found' in /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorController.php:8
+Stack trace:
+#0 {main}  
+[2017-01-26 09:02:07] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot use App\Http\Request as Request because the name is already in use' in /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorController.php:6
+Stack trace:
+#0 {main}  
+[2017-01-26 09:11:37] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Narongritsr\Calculator\CalculatorServiceProvider::loadViewFrom()' in /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorServiceProvider.php:29
+Stack trace:
+#0 {main}  
+[2017-01-26 09:11:38] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Narongritsr\Calculator\CalculatorServiceProvider::loadViewFrom()' in /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorServiceProvider.php:29
+Stack trace:
+#0 {main}  
+[2017-01-26 09:16:07] local.ERROR: exception 'InvalidArgumentException' with message 'No hint path defined for [calculator].' in /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:112
+Stack trace:
+#0 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(90): Illuminate\View\FileViewFinder->getNamespaceSegments('calculator::add')
+#1 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findNamedPathView('calculator::add')
+#2 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/View/Factory.php(174): Illuminate\View\FileViewFinder->find('calculator::add')
+#3 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(856): Illuminate\View\Factory->make('calculator::add', Array, Array)
+#4 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorController.php(13): view('calculator::add', Array)
+#5 [internal function]: Narongritsr\Calculator\CalculatorController->add('9', '6')
+#6 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#7 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('add', Array)
+#8 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/Route.php(190): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Narongritsr\Calculator\CalculatorController), 'add')
+#9 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/Route.php(144): Illuminate\Routing\Route->runController()
+#10 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/Router.php(653): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#12 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#13 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/Router.php(655): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#14 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/Router.php(629): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#15 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/Router.php(607): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#16 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(268): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#18 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#19 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#20 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(33): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#22 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#23 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#24 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#25 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/server.php(21): require_once('/Users/narongri...')
+#26 {main}  
+[2017-01-26 09:39:47] local.ERROR: exception 'ErrorException' with message 'Use of undefined constant         __DIR__ - assumed '        __DIR__'' in /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorServiceProvider.php:19
+Stack trace:
+#0 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/packages/narongritsr/calculator/src/CalculatorServiceProvider.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Use of undefine...', '/Users/narongri...', 19, Array)
+#1 [internal function]: Narongritsr\Calculator\CalculatorServiceProvider->boot()
+#2 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#3 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(769): Illuminate\Container\Container->call(Array)
+#4 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(752): Illuminate\Foundation\Application->bootProvider(Object(Narongritsr\Calculator\CalculatorServiceProvider))
+#5 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}(Object(Narongritsr\Calculator\CalculatorServiceProvider), 16)
+#6 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(753): array_walk(Array, Object(Closure))
+#7 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#8 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#9 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#10 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(113): Illuminate\Foundation\Console\Kernel->bootstrap()
+#11 /Users/narongrit.sr/dev_projects/Laravel53/calculatorTest/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 {main}  
